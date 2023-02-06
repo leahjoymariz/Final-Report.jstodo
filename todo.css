@@ -1,0 +1,36 @@
+body{
+    font-family: serif;
+    background-color: rgb(230, 212, 214);
+    color: rgb(20, 18, 18);
+    text-align: center;
+}
+h1,h2{
+    background-color:rgb(231, 85, 107);
+    font-size: 40px;
+    font-style: italic;   
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+    margin-top:50px;
+    border: 2px solid black;
+    border-top-width: medium;
+    border-top-style: none;
+    border-top-color: currentcolor;
+}
+  
+   
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color:pink;
+    font-size: large;
+    font-family:serif;
+    border: circle;
+}
+button:hover{
+    color:rgb(233, 52, 104);
+}
+
+   
